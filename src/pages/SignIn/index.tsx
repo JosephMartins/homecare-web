@@ -44,7 +44,8 @@ const SignIn = () => {
 
             </div>
 
-            <button className="button-signin" type="submit">Entrar</button>
+            
+            <Link to="landing"><button className="button-signin" type="submit">Entrar</button></Link>
 
           </form>
           <div className="content-footer">

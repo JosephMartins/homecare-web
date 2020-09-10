@@ -7,7 +7,8 @@ import backIcon from '../../assets/images/icons/back.svg';
 
 import './styles.css';
 
-function SignUp(){
+
+function ForgotPassword(){
 
 
   return (
@@ -24,14 +25,11 @@ function SignUp(){
             />
           </Link>
             
-            <h1>Cadastro</h1>
-            <p>Preencha os dados abaixo para começar</p>
-            <Input name="nome"  placeholder="nome" />
-            <Input name="sobrenome"  placeholder="Sobrenome"/>
+            <h1>Eita, esqueceu sua senha?</h1>
+            <p>Não esquenta, vamos dar um jeito nisso</p>
             <Input name="email" type="password" placeholder="E-mail"/>
-            <Input name="password" type="password" placeholder="Senha"/>
             
-            <button className="button-signin" type="submit">Concluir cadastro</button>
+            <button className="button-signin" type="submit">Enviar</button>
           </form>
         </div>
       </div>
@@ -49,4 +47,4 @@ function SignUp(){
   )
 }
 
-export default SignUp;
+export default ForgotPassword;
