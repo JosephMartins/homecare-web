@@ -28,7 +28,7 @@ function SignUp(){
             <p>Preencha os dados abaixo para começar</p>
             <Input name="nome"  placeholder="nome" />
             <Input name="sobrenome"  placeholder="Sobrenome"/>
-            <Input name="email" type="password" placeholder="E-mail"/>
+            <Input name="email" type="text" placeholder="E-mail"/>
             <Input name="password" type="password" placeholder="Senha"/>
             
             <button className="button-signin" type="submit">Concluir cadastro</button>
