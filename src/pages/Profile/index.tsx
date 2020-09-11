@@ -8,7 +8,6 @@ import backIcon from '../../assets/images/icons/back.svg';
 
 
 import warningIcon from '../../assets/images/icons/warning.svg';
-import imageBackground from '../../assets/images/Background.svg';
 
 import './styles.css';
 import api from '../../services/api';
@@ -16,8 +15,6 @@ import api from '../../services/api';
 function Profile(){
   const history = useHistory();
 
-  const [name, setName] = useState('');
-  const [avatar, setAvatar] = useState('');
   const [whatsapp, setWhatsapp] = useState('');
   const [bio, setBio] = useState('');
 
@@ -52,8 +49,6 @@ function Profile(){
     e.preventDefault();
 
     api.post('classes', {
-      name,
-      avatar,
       whatsapp,
       bio,
       subject,

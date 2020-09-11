@@ -110,7 +110,7 @@ function ProviderList(){
               Preço/hora
               <strong>R$ 18,00</strong>
             </p>
-            <a target="_blank"  href={`https://wa.me/`} type="button">
+            <a target=""  href={`https://wa.me/`} type="button">
               <img src={whatsappIcon} alt="Icone whatsapp"/>
               Entrar em contato
             </a>            

@@ -14,8 +14,6 @@ import api from '../../services/api';
 function TeacherForm(){
   const history = useHistory();
 
-  const [name, setName] = useState('');
-  const [avatar, setAvatar] = useState('');
   const [whatsapp, setWhatsapp] = useState('');
   const [bio, setBio] = useState('');
 
@@ -50,8 +48,6 @@ function TeacherForm(){
     e.preventDefault();
 
     api.post('classes', {
-      name,
-      avatar,
       whatsapp,
       bio,
       subject,
