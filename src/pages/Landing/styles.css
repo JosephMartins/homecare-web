@@ -7,7 +7,6 @@
   justify-content: center;
   align-items: center;
 
-
   color: var(--color-text-in-primary);
   background-color: var(--color-primary-dark);
 }
@@ -15,19 +14,24 @@
 .container{
   margin-top: auto;
   width: 100%;
-  margin-bottom: 10rem;
+  margin-bottom: auto;
+  padding: 8px;
+}
 
+.hero-image{
+  display: none;
 }
 
 #section-down{
   width: 100vw;
-  height: 35vh;
   background: #fff;
+
 }
 
 #section-down p{
   margin-top: 16px;
   color: #6A6180;
+  
 }
 
 #section-down .container-buttons{
@@ -35,13 +39,18 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
 }
 
 #section-down .container-buttons .buttons-container{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
 
+#section-down .buttons-container{
+  width: 100%;
+  padding: 12px
 }
 
 #section-down .container-buttons .buttons-container .buttons-group{
@@ -50,32 +59,18 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-
 }
 
 .buttons-container .total-connections{
   margin-bottom: 16px;
 }
 
-#section-down .buttons-container{
-  width: 80%;
-}
-
-
-
 #section-down p span{
   font-weight:bold;
 }
 
-
 .logo-container h1 {
   color: #fff;
-  
-}
-
-.hero-image {
-  width: 100%;
-
 }
 
 .logo-container{
@@ -101,6 +96,7 @@
   height: 10.4rem;
   border-radius: 0.8rem;
   font: 700 2.0rem Archivo;
+  padding: 0 8px;
 
   display:flex;
   align-items: center;
@@ -136,12 +132,6 @@
   background: var(--color-secundary-dark);
 }
 
-.buttons-container a img {
-  margin-right: 2.4rem;
-}
-
-
-
 .total-connections img{
   margin-left: 0.8rem;
 }
@@ -173,7 +163,6 @@
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
-
   }
 
   #section-down .container-buttons .buttons-container .buttons-group{
@@ -187,11 +176,9 @@
     justify-content: space-between;
     align-items: center;
     width: 70%;
-
   }
 
   .total-connections {
-
     max-width: 120px;
     font-size: 1.1rem;
     color: #6A6180;
@@ -200,11 +187,8 @@
     justify-content: center;
   }
 
-  
-
   #section-down .container-buttons p{
     max-width: 16rem;
-    
   }
 
   .logo-container{
@@ -220,11 +204,13 @@
   }
 
   .logo-container img{
+    display: inherit;
     height: 100%;
   }
 
   .hero-image{
     grid-area: hero;
+    display: inherit;
     justify-self: end;
   }
 
@@ -233,7 +219,13 @@
     justify-content: flex-start;
   }
 
-  .buttons-container a{
+  .buttons-container .buttons-group a{
+    display: flex;
     font-size: 2.4rem;
+    width: 45%; 
+  }
+
+  .buttons-container .buttons-group a img{
+    margin-right: 10px;
   }
 }

@@ -30,7 +30,6 @@ function Landing(){
       <div id="page-landing">
       <Header />
         <div id="page-landing-content" className="container">
-      
           <div className="logo-container">
             <h1>HomeCare</h1>
             <h2>Segurança e Tranquilidade para você.</h2>
@@ -41,6 +40,8 @@ function Landing(){
             className="hero-image"
           />
         </div>
+        
+
         <div id="section-down">
           <div className="container-buttons">
             <p>Seja bem-vindo. <span><br />O que deseja fazer?</span></p>
