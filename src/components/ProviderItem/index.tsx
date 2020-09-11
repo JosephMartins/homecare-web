@@ -35,9 +35,9 @@ const TeacherItem: React.FC<TeacherItemProps> = ({teacher}) => {
           </div>
         </header>
 
-        <p>
-            {teacher.bio}
-        </p>
+          <p>
+              {teacher.bio}
+          </p>
 
         <footer>
           <p>

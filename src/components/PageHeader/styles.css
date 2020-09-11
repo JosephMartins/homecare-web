@@ -40,7 +40,7 @@
   color: var(--color-title-in-primary);
 }
 
-.page-header .header-content p{
+.page-header .header-content .header-content-group-text-left p{
   max-width: 30rem;
   font-size: 1.6rem;
   line-height:  2.6rem;
@@ -51,12 +51,11 @@
 .page-header .header-content .header-content-group-text-right{
   display: flex;
   align-items: center;
-  justify-content: center;
-  max-width: 225px;
+  margin-top: 8px;
 }
 
 .page-header .header-content .header-content-group-text-right img{
-  margin-right: 30px;
+  margin-right: 8px;
 }
 
 .page-header .header-content strong{
@@ -95,13 +94,13 @@
   .page-header .header-content .header-content-group-text-right{
     display: flex;
     align-items: center;
-    justify-content: center;
-    max-width: 225px;
+    margin-top: 8px;
   }
-
+  
   .page-header .header-content .header-content-group-text-right img{
-    margin-right: 30px;
+    margin-right: 8px;
   }
+  
 
   .page-header .header-content strong{
     max-width: 450px;

@@ -95,15 +95,17 @@ function ProviderList(){
             </div>
           </header>
 
-          <p>
-              asdasdasdasdasdasdasdasdasdasd
-              asdasdasdasdasdasdasdasdasdasddasdasd
-              asdasdasdasdasdasdasdasdasdasddasdasddsa
-              das
-              dasdsad
-              sadsadsadasdsa
-              dasdasd
-          </p>
+          <div className="bio"> 
+            <p>
+                asdasdasdasdasdasdasdasdasdasd
+                asdasdasdasdasdasdasdasdasdasddasdasd
+                asdasdasdasdasdasdasdasdasdasddasdasddsa
+                das
+                dasdsad
+                sadsadsadasdsa
+                dasdasd
+            </p>
+          </div>
 
           <footer>
             <p>

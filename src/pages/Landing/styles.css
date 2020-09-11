@@ -15,7 +15,6 @@
   margin-top: auto;
   width: 100%;
   margin-bottom: auto;
-  padding: 8px;
 }
 
 .hero-image{
@@ -136,6 +135,11 @@
   margin-left: 0.8rem;
 }
 
+.buttons-container .buttons-group a img{
+  margin-right: 10px;
+  height: 3rem;
+  width: 3rem;
+}
 
 @media (min-width: 580px){
   #page-landing-content {
@@ -222,10 +226,12 @@
   .buttons-container .buttons-group a{
     display: flex;
     font-size: 2.4rem;
-    width: 45%; 
+    width: 50%; 
   }
 
   .buttons-container .buttons-group a img{
     margin-right: 10px;
+    height: 4rem;
+    width: 4rem;
   }
 }

@@ -126,6 +126,22 @@
   margin-bottom: 2.4rem;
 }
 
+.content-form .form form{
+  animation-duration: 1s;
+  animation-name: appearFromRight;
+}
+@keyframes appearFromRight{
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+
+  to{
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
 .content-form .form form .form-group-down .checkbox-group-label input{
   margin-right: 0.8rem;
 }
@@ -190,6 +206,23 @@
 
   .content .content-banner{
     display: inherit;
+    
+  }
+
+  .content .content-banner .content-logo-text{
+    animation-duration: 1s;
+    animation-name: appearFromLeft;
+  }
+  @keyframes appearFromLeft{
+    from {
+      opacity: 0;
+      transform: translateX(-50px);
+    }
+  
+    to{
+      opacity: 1;
+      transform: translateX(0);
+    }
   }
 
   .content{
@@ -251,6 +284,19 @@
   
     flex-direction: column;
     justify-content: center;
+    animation-duration: 1s;
+    animation-name: appearFromRight;
+  }
+  @keyframes appearFromRight{
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+  
+    to{
+      opacity: 1;
+      transform: translateX(0);
+    }
   }
  
   

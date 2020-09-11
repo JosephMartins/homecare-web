@@ -35,6 +35,12 @@
 }
 
 
+.provider-item .bio p{
+  padding: 0 24px;
+  line-height: 2.8rem;
+  word-wrap: break-word;
+}
+
 .provider-item > p {
   padding: 0 2rem;
   font-size: 1.6rem;
@@ -58,7 +64,7 @@
 }
 
 .provider-item footer a {
-  width: 20rem;
+  width: 15rem;
   height: 5.6rem;
   background: var(--color-secundary);
   color: var(--color-button-text);

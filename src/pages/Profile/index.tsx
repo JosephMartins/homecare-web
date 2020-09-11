@@ -66,7 +66,6 @@ function Profile(){
   return(
     <div id="page-profile-form" className="container">
       <header className="page-header">
-
         <div className="top-bar-container">
           <Link to='landing'> 
             <img src={backIcon} alt="Voltar"/>
@@ -74,9 +73,6 @@ function Profile(){
           <p>Meu Perfil</p>
           <p>HomeCare</p>
         </div>
-
-
-
         <div className="header-content">
           <img className="image-profile" src="https://scontent.fbsb8-1.fna.fbcdn.net/v/t1.0-9/12295283_1484892031819954_843304737671089864_n.jpg?_nc_cat=104&_nc_sid=730e14&_nc_ohc=dAVwHwRtPeUAX-zrDbN&_nc_ht=scontent.fbsb8-1.fna&oh=b3362562da947d6a2457a91f55c7278e&oe=5F7D6E8E" alt="Joseph Martins"/>
           <h3>Joseph Martins</h3>

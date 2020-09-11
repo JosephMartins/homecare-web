@@ -28,9 +28,16 @@
   margin-top: 3.2rem;
 }
 
+.provider-item .bio p{
+  padding: 0 24px;
+  line-height: 2.8rem;
+  word-wrap: break-word;
+}
+
 #search-providers button:hover{
   background: var(--color-secundary-dark);
 }
+
 
 #page-provider-list main{
   margin: 3.2rem auto;

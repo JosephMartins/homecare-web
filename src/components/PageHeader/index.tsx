@@ -34,7 +34,7 @@ const  PageHeader: React.FC<PageHeaderProps> = ({title, children, description, p
         </div>
         <div className="header-content-group-text-right">
           <img src={emoji} alt="Voltar"/>
-          <p>Prepare-se! vai ser o máximo</p>
+          <p>Prepare-se!<br></br> vai ser o máximo</p>
         </div>
       </div>
     </header>
